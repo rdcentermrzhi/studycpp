@@ -25,7 +25,7 @@ void cal(int *a, int first, int length) {
 	}
 }
 int main() {
-	int a[3] = { 1,2,3 };
+	int a[4] = { 1,2,3 ,5};
 	cal(a, 0, 2);
 	system("pause");
 	return 0;
