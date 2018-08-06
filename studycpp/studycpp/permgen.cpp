@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 using namespace std;
 
@@ -25,6 +26,9 @@ void cal(int *a, int first, int length) {
 	}
 }
 int main() {
+	char *p = (char *)malloc(100);
+	strcpy(p, "adc");
+
 	int a[3] = { 1,2,3 };
 	cal(a, 0, 2);
 	system("pause");
