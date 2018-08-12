@@ -116,7 +116,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="permgen.cpp" />
-    <ClCompile Include="构造函数.cpp" />
+    <ClCompile Include="1-拷贝构造函数.cpp" />
+    <ClCompile Include="0-构造函数.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

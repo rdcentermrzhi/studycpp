@@ -57,16 +57,16 @@ void testT() {
 
 
 
-int main(){
-	testT();
-	
-
-	//Test t(1, 4);
-
-	//不可以打印空指针会报异常
-	//char *p = NULL;
-	//std::cout << p << std::endl;
-	printf("hello world");
-	system("pause");
-	return 0;
-}
+//int main(){
+//	testT();
+//	
+//
+//	//Test t(1, 4);
+//
+//	//不可以打印空指针会报异常
+//	//char *p = NULL;
+//	//std::cout << p << std::endl;
+//	printf("hello world");
+//	system("pause");
+//	return 0;
+//}

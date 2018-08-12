@@ -25,12 +25,12 @@ void cal(int *a, int first, int length) {
 
 	}
 }
-int main() {
-	char *p = (char *)malloc(100);
-	strcpy(p, "adc");
-
-	int a[3] = { 1,2,3 };
-	cal(a, 0, 2);
-	system("pause");
-	return 0;
-}
+//int main() {
+//	char *p = (char *)malloc(100);
+//	strcpy(p, "adc");
+//
+//	int a[3] = { 1,2,3 };
+//	cal(a, 0, 2);
+//	system("pause");
+//	return 0;
+//}
