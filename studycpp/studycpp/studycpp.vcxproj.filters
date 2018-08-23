@@ -30,5 +30,8 @@
     <ClCompile Include="permgen.cpp">
       <Filter>源文件\算法</Filter>
     </ClCompile>
+    <ClCompile Include="3-深浅拷贝.cpp">
+      <Filter>源文件\构造函数</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
