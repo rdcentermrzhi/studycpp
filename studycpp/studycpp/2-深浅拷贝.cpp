@@ -69,15 +69,15 @@ void playObj()
 
 }
 
-int main(){
-	
-	//NAME t("abc");
-	//NAME t2(t);
-	
-	//std::cout << t2.size << std::endl;
-
-	playObj();
-	
-	system("pause");
-	return 0;
-}
+//int main(){
+//	
+//	//NAME t("abc");
+//	//NAME t2(t);
+//	
+//	//std::cout << t2.size << std::endl;
+//
+//	playObj();
+//	
+//	system("pause");
+//	return 0;
+//}
