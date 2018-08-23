@@ -10,6 +10,7 @@ public:
 		std::cout << "a:" << a << " b:" << b << " c:" << c << std::endl;
 		std::cout << "construct ABC" << std::endl;
 	}
+	// 析构函数调用与构造函数列表初始化方向相反
 	~ABC() 
 	{
 	
