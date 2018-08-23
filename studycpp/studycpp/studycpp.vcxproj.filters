@@ -39,5 +39,14 @@
     <ClCompile Include="4-deletenew用法.cpp">
       <Filter>源文件\构造函数</Filter>
     </ClCompile>
+    <ClCompile Include="5-静态成员变量.cpp">
+      <Filter>源文件\构造函数</Filter>
+    </ClCompile>
+    <ClCompile Include="6-公有静态数据成员.cpp">
+      <Filter>源文件\构造函数</Filter>
+    </ClCompile>
+    <ClCompile Include="7-静态成员函数.cpp">
+      <Filter>源文件\构造函数</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

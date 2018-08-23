@@ -118,6 +118,9 @@
     <ClCompile Include="2-深浅拷贝.cpp" />
     <ClCompile Include="3-对象初始化列表.cpp" />
     <ClCompile Include="4-deletenew用法.cpp" />
+    <ClCompile Include="5-静态成员变量.cpp" />
+    <ClCompile Include="6-公有静态数据成员.cpp" />
+    <ClCompile Include="7-静态成员函数.cpp" />
     <ClCompile Include="permgen.cpp" />
     <ClCompile Include="1-拷贝构造函数.cpp" />
     <ClCompile Include="0-构造函数.cpp" />
