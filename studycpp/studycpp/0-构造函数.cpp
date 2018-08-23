@@ -22,7 +22,7 @@ public:
 	{
 		m_a = 10;
 		m_p = (char*)malloc(100);
-		strcpy(m_p, "123456");
+		strcpy(m_p, "123456");	
 		std::cout << "执行构造函数" << std::endl;
 	}
 
