@@ -84,9 +84,9 @@ int runMyTest()
 
 
 
-int main(){
-	runMyTest();
-	
-	system("pause");
-	return 0;
-}
+//int main(){
+//	runMyTest();
+//	
+//	system("pause");
+//	return 0;
+//}

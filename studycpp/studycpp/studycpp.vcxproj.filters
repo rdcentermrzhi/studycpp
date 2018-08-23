@@ -36,5 +36,8 @@
     <ClCompile Include="3-对象初始化列表.cpp">
       <Filter>源文件\构造函数</Filter>
     </ClCompile>
+    <ClCompile Include="4-deletenew用法.cpp">
+      <Filter>源文件\构造函数</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
