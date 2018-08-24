@@ -34,11 +34,11 @@ private:
 
 
 
-int main(){
-	B o;
-	o.setA(100);
-	o.display();
-	
-	system("pause");
-	return 0;
-}
+//int main(){
+//	B o;
+//	o.setA(100);
+//	o.display();
+//	
+//	system("pause");
+//	return 0;
+//}
