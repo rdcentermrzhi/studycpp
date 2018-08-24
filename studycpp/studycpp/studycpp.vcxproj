@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="0-基础知识.cpp" />
     <ClCompile Include="2-深浅拷贝.cpp" />
     <ClCompile Include="3-对象初始化列表.cpp" />
     <ClCompile Include="4-deletenew用法.cpp" />

@@ -18,9 +18,9 @@ private:
 int BBC::Sm = 10;
 
 
-int main(){
-	int r = BBC::getSm();
-	std::cout << r << std::endl;
-	system("pause");
-	return 0;
-}
+//int main(){
+//	int r = BBC::getSm();
+//	std::cout << r << std::endl;
+//	system("pause");
+//	return 0;
+//}

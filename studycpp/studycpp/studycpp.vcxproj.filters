@@ -19,6 +19,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\面向对象模型">
+      <UniqueIdentifier>{32cbbf55-e3bb-4c65-800c-ce05f4bddeed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="7-静态成员函数.cpp">
       <Filter>源文件\构造函数</Filter>
+    </ClCompile>
+    <ClCompile Include="0-基础知识.cpp">
+      <Filter>源文件\面向对象模型</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
