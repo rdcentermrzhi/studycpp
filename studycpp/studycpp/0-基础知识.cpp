@@ -78,20 +78,20 @@ struct S2
 
 
 
-int main(){
-
-
-	C2 t;
-	const C2 t2;
-
-	std::cout << t.getSum() << std::endl;
-	std::cout << t2.getSum() << std::endl;
-
-	
-	std::cout << "C1:" << sizeof(C1) << std::endl;
-	std::cout << "C2:" << sizeof(C2) << std::endl;
-	std::cout << "S1:" << sizeof(S1) << std::endl;
-	std::cout << "S2:" << sizeof(S2) << std::endl;
-	system("pause");
-	return 0;
-}
+//int main(){
+//
+//
+//	C2 t;
+//	const C2 t2;
+//
+//	std::cout << t.getSum() << std::endl;
+//	std::cout << t2.getSum() << std::endl;
+//
+//	
+//	std::cout << "C1:" << sizeof(C1) << std::endl;
+//	std::cout << "C2:" << sizeof(C2) << std::endl;
+//	std::cout << "S1:" << sizeof(S1) << std::endl;
+//	std::cout << "S2:" << sizeof(S2) << std::endl;
+//	system("pause");
+//	return 0;
+//}

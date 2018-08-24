@@ -54,5 +54,11 @@
     <ClCompile Include="0-基础知识.cpp">
       <Filter>源文件\面向对象模型</Filter>
     </ClCompile>
+    <ClCompile Include="1-友员函数.cpp">
+      <Filter>源文件\面向对象模型</Filter>
+    </ClCompile>
+    <ClCompile Include="3-友员类.cpp">
+      <Filter>源文件\面向对象模型</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
