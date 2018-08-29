@@ -28,6 +28,9 @@
     <Filter Include="源文件\练习">
       <UniqueIdentifier>{376e0a4e-ffcf-4386-bfc5-08e56d43a1ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\运算符重载">
+      <UniqueIdentifier>{d913861e-9c76-4e55-829b-6fb13cf205d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -74,6 +77,12 @@
     </ClCompile>
     <ClCompile Include="Array练习.cpp">
       <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="Complex.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="=不能重载为友员函数解析.cpp">
+      <Filter>源文件\运算符重载</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

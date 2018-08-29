@@ -124,8 +124,10 @@
     <ClCompile Include="5-静态成员变量.cpp" />
     <ClCompile Include="6-公有静态数据成员.cpp" />
     <ClCompile Include="7-静态成员函数.cpp" />
+    <ClCompile Include="=不能重载为友员函数解析.cpp" />
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array练习.cpp" />
+    <ClCompile Include="Complex.cpp" />
     <ClCompile Include="permgen.cpp" />
     <ClCompile Include="1-拷贝构造函数.cpp" />
     <ClCompile Include="0-构造函数.cpp" />
