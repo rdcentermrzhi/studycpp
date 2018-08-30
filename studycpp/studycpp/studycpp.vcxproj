@@ -136,6 +136,7 @@
     <ClCompile Include="不用重载逻辑与或.cpp" />
     <ClCompile Include="友员函数案例.cpp" />
     <ClCompile Include="智能指针类.cpp" />
+    <ClCompile Include="继承对访问熟悉的影响.cpp" />
     <ClCompile Include="重载括号.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -57,10 +57,10 @@ protected:
 
 
 
-int main(){
-	MyPointer mp = new Test2;
-	mp->printT();
-	
-	system("pause");
-	return 0;
-}
+//int main(){
+//	MyPointer mp = new Test2;
+//	mp->printT();
+//	
+//	system("pause");
+//	return 0;
+//}
