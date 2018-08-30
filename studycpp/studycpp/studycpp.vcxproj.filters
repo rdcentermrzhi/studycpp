@@ -84,6 +84,21 @@
     <ClCompile Include="=不能重载为友员函数解析.cpp">
       <Filter>源文件\运算符重载</Filter>
     </ClCompile>
+    <ClCompile Include="友员函数案例.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="重载括号.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="不用重载逻辑与或.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="智能指针类.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">

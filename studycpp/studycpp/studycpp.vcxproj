@@ -128,10 +128,15 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array练习.cpp" />
     <ClCompile Include="Complex.cpp" />
+    <ClCompile Include="MyString.cpp" />
     <ClCompile Include="permgen.cpp" />
     <ClCompile Include="1-拷贝构造函数.cpp" />
     <ClCompile Include="0-构造函数.cpp" />
     <ClCompile Include="3-static关键字强化练习.cpp" />
+    <ClCompile Include="不用重载逻辑与或.cpp" />
+    <ClCompile Include="友员函数案例.cpp" />
+    <ClCompile Include="智能指针类.cpp" />
+    <ClCompile Include="重载括号.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />

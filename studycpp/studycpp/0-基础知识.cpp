@@ -35,13 +35,14 @@ public:
 	static int m;
 
 public:
+	//非静态成员函数后面加const（加到非成员函数或静态成员后面会产生编译错误），表示成员函数隐含传入的this指针为const指针，决定了在该成员函数中，任意修改它所在的类的成员的操作都是不允许的（因为隐含了对this指针的const引用）；唯一的例外是对于mutable修饰的成员。加了const的成员函数可以被非const对象和const对象调用，但不加const的成员函数只能被非const对象调用
 	//常成员函数 不能改变成员变量的值   可以调用其他常成员函数 但不能调用非常成员函数 
 	int getK() const
 	{
 		return this->k;
 	}
 	//const关键字可以用于对重载函数的区分
-	int getSum() const
+	int getsum() const
 	{
 		return i + j;
 	}
@@ -78,16 +79,16 @@ struct S2
 
 
 
-//int main(){
+//int main() {
 //
 //
 //	C2 t;
 //	const C2 t2;
 //
-//	std::cout << t.getSum() << std::endl;
-//	std::cout << t2.getSum() << std::endl;
+//	std::cout << t.getsum() << std::endl;
+//	std::cout << t2.getsum() << std::endl;
 //
-//	
+//
 //	std::cout << "C1:" << sizeof(C1) << std::endl;
 //	std::cout << "C2:" << sizeof(C2) << std::endl;
 //	std::cout << "S1:" << sizeof(S1) << std::endl;

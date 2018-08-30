@@ -82,24 +82,24 @@ std::ostream & operator<<(std::ostream &out, Complex & c)
 	return out;
 }
 
-int main()
-{
-
-	Complex c1(1, 2), c2(3, 4);
-	Complex c3 = c1 + c2;
-
-	//c3.printCom();
-	std::cout << c3 << std::endl;
-
-
-	c3--;
-	//c3.printCom();
-	std::cout << c3 << std::endl;
-
-	c3 = c1;
-	//c3.printCom();
-	std::cout << c3 << std::endl;
-
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//
+//	Complex c1(1, 2), c2(3, 4);
+//	Complex c3 = c1 + c2;
+//
+//	//c3.printCom();
+//	std::cout << c3 << std::endl;
+//
+//
+//	c3--;
+//	//c3.printCom();
+//	std::cout << c3 << std::endl;
+//
+//	c3 = c1;
+//	//c3.printCom();
+//	std::cout << c3 << std::endl;
+//
+//	system("pause");
+//	return 0;
+//}
