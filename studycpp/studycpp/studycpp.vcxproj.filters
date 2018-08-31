@@ -34,6 +34,9 @@
     <Filter Include="源文件\继承">
       <UniqueIdentifier>{3995da3f-3b50-4514-9f27-be4aee13d6e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\多态">
+      <UniqueIdentifier>{1541147c-359c-41a5-91c9-371babd7dd09}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -102,8 +105,32 @@
     <ClCompile Include="智能指针类.cpp">
       <Filter>源文件\运算符重载</Filter>
     </ClCompile>
-    <ClCompile Include="继承对访问熟悉的影响.cpp">
+    <ClCompile Include="类型兼容性原则.cpp">
       <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="父级构造和析构函数.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="继承组合混合搭配.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="访问基类同名成员.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="static在继承中.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="继承对访问属性的影响.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="多继承.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="虚继承.cpp">
+      <Filter>源文件\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="0-定义和父类相同的函数.cpp">
+      <Filter>源文件\多态</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
