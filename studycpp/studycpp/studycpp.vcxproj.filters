@@ -37,6 +37,9 @@
     <Filter Include="源文件\多态">
       <UniqueIdentifier>{1541147c-359c-41a5-91c9-371babd7dd09}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\c接口多态">
+      <UniqueIdentifier>{a6b8ecad-4dc9-430c-a813-720c74cba11b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -131,6 +134,15 @@
     </ClCompile>
     <ClCompile Include="0-定义和父类相同的函数.cpp">
       <Filter>源文件\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="1-纯虚函数.cpp">
+      <Filter>源文件\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="0-函数指针.cpp">
+      <Filter>源文件\c接口多态</Filter>
+    </ClCompile>
+    <ClCompile Include="1-函数指针的正向调用.c">
+      <Filter>源文件\c接口多态</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
