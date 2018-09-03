@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
-template<typename T>
+template<class T>
 class TestTpl
 {
 public:
@@ -12,11 +12,22 @@ public:
 	{
 		return t_;
 	}
+	
+	friend std::ostream& operator<< (std::ostream & out, const TestTpl<T> &t);
+
 protected:
 	T t_;
 private:
 	
 };
+
+template<typename T>
+std::ostream& operator<< (std::ostream & out, const TestTpl<T> &t)
+{
+	return out;
+}
+
+
 
 class ChildTpl :public TestTpl <int>
 {
@@ -29,6 +40,9 @@ public:
 	{
 		std::cout << "T = " << t_ << std::endl;
 	}
+
+
+
 };
 
 
