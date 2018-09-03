@@ -40,6 +40,9 @@
     <Filter Include="源文件\c接口多态">
       <UniqueIdentifier>{a6b8ecad-4dc9-430c-a813-720c74cba11b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\模板">
+      <UniqueIdentifier>{b90f3801-c675-4e7d-bea0-12f6ff6d53df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -143,6 +146,12 @@
     </ClCompile>
     <ClCompile Include="1-函数指针的正向调用.c">
       <Filter>源文件\c接口多态</Filter>
+    </ClCompile>
+    <ClCompile Include="模板基础.cpp">
+      <Filter>源文件\模板</Filter>
+    </ClCompile>
+    <ClCompile Include="模板类.cpp">
+      <Filter>源文件\模板</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
