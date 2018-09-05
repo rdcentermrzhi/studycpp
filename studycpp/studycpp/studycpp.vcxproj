@@ -129,14 +129,17 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array练习.cpp" />
     <ClCompile Include="Complex.cpp" />
+    <ClCompile Include="const_cast转换.cpp" />
     <ClCompile Include="MyString.cpp" />
     <ClCompile Include="permgen.cpp" />
     <ClCompile Include="1-拷贝构造函数.cpp" />
     <ClCompile Include="0-构造函数.cpp" />
     <ClCompile Include="3-static关键字强化练习.cpp" />
     <ClCompile Include="static在继承中.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="不用重载逻辑与或.cpp" />
     <ClCompile Include="0-函数指针.cpp" />
+    <ClCompile Include="动态类型转换.cpp" />
     <ClCompile Include="友员函数案例.cpp" />
     <ClCompile Include="多继承.cpp" />
     <ClCompile Include="0-定义和父类相同的函数.cpp" />
@@ -146,6 +149,7 @@
     <ClCompile Include="父级构造和析构函数.cpp" />
     <ClCompile Include="类型兼容性原则.cpp" />
     <ClCompile Include="1-纯虚函数.cpp" />
+    <ClCompile Include="类型转换.cpp" />
     <ClCompile Include="继承对访问属性的影响.cpp" />
     <ClCompile Include="继承组合混合搭配.cpp" />
     <ClCompile Include="虚继承.cpp" />

@@ -43,6 +43,9 @@
     <Filter Include="源文件\模板">
       <UniqueIdentifier>{b90f3801-c675-4e7d-bea0-12f6ff6d53df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\类型转换">
+      <UniqueIdentifier>{3dea0349-e5c7-4b5c-842e-c1745a3f6299}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -152,6 +155,18 @@
     </ClCompile>
     <ClCompile Include="模板类.cpp">
       <Filter>源文件\模板</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件\模板</Filter>
+    </ClCompile>
+    <ClCompile Include="类型转换.cpp">
+      <Filter>源文件\类型转换</Filter>
+    </ClCompile>
+    <ClCompile Include="动态类型转换.cpp">
+      <Filter>源文件\类型转换</Filter>
+    </ClCompile>
+    <ClCompile Include="const_cast转换.cpp">
+      <Filter>源文件\类型转换</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
