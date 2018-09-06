@@ -128,9 +128,11 @@
     <ClCompile Include="=不能重载为友员函数解析.cpp" />
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array练习.cpp" />
+    <ClCompile Include="bad_alloc异常.cpp" />
     <ClCompile Include="Complex.cpp" />
     <ClCompile Include="const_cast转换.cpp" />
     <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="out_of_range异常.cpp" />
     <ClCompile Include="permgen.cpp" />
     <ClCompile Include="1-拷贝构造函数.cpp" />
     <ClCompile Include="0-构造函数.cpp" />

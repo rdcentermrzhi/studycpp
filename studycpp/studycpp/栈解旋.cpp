@@ -36,22 +36,22 @@ void myFunc() throw (MyException)
 	throw MyException();
 }
 
-int main(int argc,char *argv[])
-{
-	try
-	{
-		myFunc();
-	}
-	catch (MyException)
-	{
-		std::cout << "接受TestException 异常" << std::endl;
-	}
-	catch (...)
-	{
-		std::cout << "未知异常" << std::endl;
-	}
-	
-	
-	system("pause");
-	return 0;
-}
+//int main(int argc,char *argv[])
+//{
+//	try
+//	{
+//		myFunc();
+//	}
+//	catch (MyException)
+//	{
+//		std::cout << "接受TestException 异常" << std::endl;
+//	}
+//	catch (...)
+//	{
+//		std::cout << "未知异常" << std::endl;
+//	}
+//	
+//	
+//	system("pause");
+//	return 0;
+//}
