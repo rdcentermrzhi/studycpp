@@ -49,6 +49,12 @@
     <Filter Include="源文件\异常">
       <UniqueIdentifier>{e6d1abe7-26b6-40d1-9ebf-210a2e4f9bc0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\IO流">
+      <UniqueIdentifier>{684c2147-7f76-4d0d-9a3b-4f9aed352563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\csapppractice">
+      <UniqueIdentifier>{2f99292b-ef05-4590-ac21-75af0794850a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -179,6 +185,12 @@
     </ClCompile>
     <ClCompile Include="bad_alloc异常.cpp">
       <Filter>源文件\异常</Filter>
+    </ClCompile>
+    <ClCompile Include="1.io函数.cpp">
+      <Filter>源文件\IO流</Filter>
+    </ClCompile>
+    <ClCompile Include="0_string.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
