@@ -89,7 +89,7 @@ void test3() {
 	vector<int>::const_iterator const_it;
 
 	//正向访问
-	for (it = vect.begin(); it != vect.end(); it++) {
+	for (it = vect.begin(); it != vect.end(); ++it) {
 		cout << *it << endl;
 	}
 
@@ -97,7 +97,7 @@ void test3() {
 	//	cout << *it << endl;
 	//}
 	//逆向访问
-	for (rit = vect.rbegin(); rit != vect.rend(); rit++) {
+	for (rit = vect.rbegin(); rit != vect.rend(); ++rit) {
 	
 		cout << *rit << endl;
 	}
@@ -110,7 +110,7 @@ void test3() {
 
 }
 
-int main(int argc,char *argv[])
+int main_vector(int argc,char *argv[])
 {
 	test3();
 	//_CrtSetBreakAlloc(170); //98500
@@ -127,7 +127,7 @@ int main(int argc,char *argv[])
 	//	cout << vectorD[i] << endl;
 	//}*/
 
-	//for (vector<int>::iterator it = vectorD.begin(); it != vectorD.end(); it++) { //end 指向尾指针的下一个位置指针
+	//for (vector<int>::iterator it = vectorD.begin(); it != vectorD.end(); ++it) { //end 指向尾指针的下一个位置指针
 	//	cout << *it << endl;
 	//}
 

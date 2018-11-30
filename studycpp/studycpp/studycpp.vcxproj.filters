@@ -213,6 +213,12 @@
     <ClCompile Include="stl内存泄露.cpp">
       <Filter>源文件\stl</Filter>
     </ClCompile>
+    <ClCompile Include="deque.cpp">
+      <Filter>源文件\stl</Filter>
+    </ClCompile>
+    <ClCompile Include="set_muiltset.cpp">
+      <Filter>源文件\stl</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
