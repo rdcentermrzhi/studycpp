@@ -61,6 +61,9 @@
     <Filter Include="源文件\stl">
       <UniqueIdentifier>{a091f615-da9e-4a87-93d8-e39c79a7acb9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\c++primerplus">
+      <UniqueIdentifier>{73db0ea8-e45d-42e3-b2ba-1b7a8bf4ca61}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -219,10 +222,31 @@
     <ClCompile Include="set_muiltset.cpp">
       <Filter>源文件\stl</Filter>
     </ClCompile>
+    <ClCompile Include="chapter1.16.cpp">
+      <Filter>源文件\c++primerplus</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter_plus_2.7.1.cpp">
+      <Filter>源文件\c++primerplus</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1.5.1.cpp">
+      <Filter>源文件\c++primerplus</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter_152.cpp">
+      <Filter>源文件\c++primerplus</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter_153.cpp">
+      <Filter>源文件\c++primerplus</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
       <Filter>头文件\练习</Filter>
+    </ClInclude>
+    <ClInclude Include="Sales_item.h">
+      <Filter>头文件\练习</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter1.5.1.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

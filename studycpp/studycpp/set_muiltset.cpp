@@ -80,7 +80,7 @@ void test_map_sort_functor()
 }
 
 
-int main(int argc,char *argv[])
+int main_test_map(int argc,char *argv[])
 {
 	test_map_sort_functor();
 	//test_map();

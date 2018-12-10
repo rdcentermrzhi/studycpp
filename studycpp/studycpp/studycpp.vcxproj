@@ -131,6 +131,10 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array练习.cpp" />
     <ClCompile Include="bad_alloc异常.cpp" />
+    <ClCompile Include="chapter1.5.1.cpp" />
+    <ClCompile Include="chapter_152.cpp" />
+    <ClCompile Include="chapter_153.cpp" />
+    <ClCompile Include="chapter_plus_2.7.1.cpp" />
     <ClCompile Include="Complex.cpp" />
     <ClCompile Include="const_cast转换.cpp" />
     <ClCompile Include="deque.cpp" />
@@ -158,6 +162,7 @@
     <ClCompile Include="栈解旋.cpp" />
     <ClCompile Include="模板基础.cpp" />
     <ClCompile Include="模板类.cpp" />
+    <ClCompile Include="chapter1.16.cpp" />
     <ClCompile Include="父级构造和析构函数.cpp" />
     <ClCompile Include="类型兼容性原则.cpp" />
     <ClCompile Include="1-纯虚函数.cpp" />
@@ -170,6 +175,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
+    <ClInclude Include="chapter1.5.1.h" />
+    <ClInclude Include="Sales_item.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
