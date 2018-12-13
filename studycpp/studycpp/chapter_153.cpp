@@ -3,7 +3,7 @@
 #include<string>
 std::string global_str;
 int global_int;
-int main(int argc,char *argv[])
+int main_153(int argc,char *argv[])
 {
 	std::string local_str;
 	int local_int;

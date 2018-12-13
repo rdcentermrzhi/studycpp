@@ -64,6 +64,9 @@
     <Filter Include="源文件\c++primerplus">
       <UniqueIdentifier>{73db0ea8-e45d-42e3-b2ba-1b7a8bf4ca61}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\mysqldemo">
+      <UniqueIdentifier>{80442134-51a6-4582-9a1d-4b6849a9f24d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -236,6 +239,9 @@
     </ClCompile>
     <ClCompile Include="chapter_153.cpp">
       <Filter>源文件\c++primerplus</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlconn.cpp">
+      <Filter>源文件\mysqldemo</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
