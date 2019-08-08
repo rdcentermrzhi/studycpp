@@ -2,7 +2,7 @@
 #include<iostream>
 #include "mysql/mysql.h"
 #include<string>
-int main(int argc, char *argv[])
+int main_mysqlconn(int argc, char *argv[])
 {
 	MYSQL *conn;
 	MYSQL_RES *res;

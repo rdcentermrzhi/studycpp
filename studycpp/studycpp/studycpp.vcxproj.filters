@@ -67,6 +67,9 @@
     <Filter Include="源文件\demo">
       <UniqueIdentifier>{80442134-51a6-4582-9a1d-4b6849a9f24d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\标准库">
+      <UniqueIdentifier>{5f73e71d-bd29-44f8-bdd1-7ea642a01b74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -242,6 +245,15 @@
     </ClCompile>
     <ClCompile Include="mysqlconn.cpp">
       <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="winhttp.cpp">
+      <Filter>源文件\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="pair.cpp">
+      <Filter>源文件\日常测试</Filter>
+    </ClCompile>
+    <ClCompile Include="shared_weak_ptr.cpp">
+      <Filter>源文件\标准库</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
