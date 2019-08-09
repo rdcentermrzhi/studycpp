@@ -43,22 +43,22 @@ std::shared_ptr<Persion> init(const std::string& name)
 }
 
 
-
-int main(int argc,char *argv[])
-{
-	std::shared_ptr<Persion> x;
-	{
-		std::shared_ptr<Persion> p = init("nice");
-		std::cout << p.use_count() << std::endl;
-		std::cout << p->mom_->kids[0].lock()->name_.c_str() << std::endl;
-
-		std::string a("acd");
-		std::cout << a.c_str() << std::endl;
-		x = p->get_ptr();
-	}
-	
-
-	
-	system("pause");
-	return 0;
-}
+//
+//int main(int argc,char *argv[])
+//{
+//	std::shared_ptr<persion> x;
+//	{
+//		std::shared_ptr<persion> p = init("nice");
+//		std::cout << p.use_count() << std::endl;
+//		std::cout << p->mom_->kids[0].lock()->name_.c_str() << std::endl;
+//
+//		std::string a("acd");
+//		std::cout << a.c_str() << std::endl;
+//		x = p->get_ptr();
+//	}
+//	
+//
+//	
+//	system("pause");
+//	return 0;
+//}
