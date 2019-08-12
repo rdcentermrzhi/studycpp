@@ -36,32 +36,32 @@ void printf(A<int> a)
 
 
 
-int main(int argc,char *argv[])
-{
-
-
-	A<int> c;
-	c.a = 10;
-
-
-	A<int> g = A<int>();
-	std::cout << g.a << std::endl;
-
-	printf(c);
-
-	int a = 10;
-	std::unique_ptr<int> up = std::make_unique<int>(a);
-
-
-	*up = 19;
-
-	std::cout << a << std::endl;
-
-	std::unique_ptr<int> bp = std::move(up);
-
-
-	std::cout << std::numeric_limits<short>::max() << std::endl;
-
-	system("pause");
-	return 0;
-}
+//int main(int argc,char *argv[])
+//{
+//
+//
+//	A<int> c;
+//	c.a = 10;
+//
+//
+//	A<int> g = A<int>();
+//	std::cout << g.a << std::endl;
+//
+//	printf(c);
+//
+//	int a = 10;
+//	std::unique_ptr<int> up = std::make_unique<int>(a);
+//
+//
+//	*up = 19;
+//
+//	std::cout << a << std::endl;
+//
+//	std::unique_ptr<int> bp = std::move(up);
+//
+//
+//	std::cout << std::numeric_limits<short>::max() << std::endl;
+//
+//	system("pause");
+//	return 0;
+//}
