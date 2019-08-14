@@ -145,6 +145,7 @@
     <ClCompile Include="chapter_152.cpp" />
     <ClCompile Include="chapter_153.cpp" />
     <ClCompile Include="chapter_plus_2.7.1.cpp" />
+    <ClCompile Include="chrono_demo.cpp" />
     <ClCompile Include="Complex.cpp" />
     <ClCompile Include="const_cast转换.cpp" />
     <ClCompile Include="deque.cpp" />

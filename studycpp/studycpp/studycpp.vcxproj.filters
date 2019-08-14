@@ -261,6 +261,9 @@
     <ClCompile Include="type_trait_demo.cpp">
       <Filter>源文件\标准库</Filter>
     </ClCompile>
+    <ClCompile Include="chrono_demo.cpp">
+      <Filter>源文件\标准库</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
