@@ -141,6 +141,7 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array练习.cpp" />
     <ClCompile Include="bad_alloc异常.cpp" />
+    <ClCompile Include="bitorder.cpp" />
     <ClCompile Include="chapter1.5.1.cpp" />
     <ClCompile Include="chapter_152.cpp" />
     <ClCompile Include="chapter_153.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="Complex.cpp" />
     <ClCompile Include="const_cast转换.cpp" />
     <ClCompile Include="deque.cpp" />
+    <ClCompile Include="endian.cpp" />
     <ClCompile Include="mysqlconn.cpp" />
     <ClCompile Include="MyString.cpp" />
     <ClCompile Include="out_of_range异常.cpp" />

@@ -267,6 +267,12 @@
     <ClCompile Include="pair_demo.cpp">
       <Filter>源文件\标准库</Filter>
     </ClCompile>
+    <ClCompile Include="endian.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="bitorder.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
