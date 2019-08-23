@@ -149,6 +149,7 @@
     <ClCompile Include="chrono_demo.cpp" />
     <ClCompile Include="Complex.cpp" />
     <ClCompile Include="const_cast转换.cpp" />
+    <ClCompile Include="cppmemory.cpp" />
     <ClCompile Include="deque.cpp" />
     <ClCompile Include="endian.cpp" />
     <ClCompile Include="mysqlconn.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="unique_ptr_demo.cpp" />
     <ClCompile Include="vectorsimple.cpp" />
     <ClCompile Include="winhttp.cpp" />
+    <ClCompile Include="cpp内存布局.cpp" />
     <ClCompile Include="不用重载逻辑与或.cpp" />
     <ClCompile Include="0-函数指针.cpp" />
     <ClCompile Include="为什么delete不知道长度但能析构对象.cpp" />
@@ -189,7 +191,9 @@
     <ClCompile Include="类型转换.cpp" />
     <ClCompile Include="继承对访问属性的影响.cpp" />
     <ClCompile Include="继承组合混合搭配.cpp" />
+    <ClCompile Include="菱形继承的内存布局.cpp" />
     <ClCompile Include="虚继承.cpp" />
+    <ClCompile Include="虚继承的内存布局.cpp" />
     <ClCompile Include="访问基类同名成员.cpp" />
     <ClCompile Include="重载括号.cpp" />
   </ItemGroup>

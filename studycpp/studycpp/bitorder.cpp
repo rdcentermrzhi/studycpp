@@ -46,26 +46,26 @@ struct bit_order {
 };
 
 
-int main()
-{
-	struct short_flag_t s;
-	memset(&s, 0, sizeof(s));
-	s.a = 2; /* 10 */
-	s.b = 4; /* 100 */
-
-	dump_native_bits_storage_layout((unsigned char*)&s, sizeof(s));
-
-	unsigned char ch = 0x79;
-	struct bit_order *ptr = (struct bit_order *)&ch;
-
-	dump_native_bits_storage_layout((unsigned char*)&ch, sizeof(ch));
-
-	printf("bit_order->a : %u\n", ptr->a);
-	printf("bit_order->b : %u\n", ptr->b);
-	printf("bit_order->c : %u\n", ptr->c);
-	
-
-	std::cout << sizeof(char *) << std::endl;
-
-	system("pause");
-}
+//int main()
+//{
+//	struct short_flag_t s;
+//	memset(&s, 0, sizeof(s));
+//	s.a = 2; /* 10 */
+//	s.b = 4; /* 100 */
+//
+//	dump_native_bits_storage_layout((unsigned char*)&s, sizeof(s));
+//
+//	unsigned char ch = 0x79;
+//	struct bit_order *ptr = (struct bit_order *)&ch;
+//
+//	dump_native_bits_storage_layout((unsigned char*)&ch, sizeof(ch));
+//
+//	printf("bit_order->a : %u\n", ptr->a);
+//	printf("bit_order->b : %u\n", ptr->b);
+//	printf("bit_order->c : %u\n", ptr->c);
+//	
+//
+//	std::cout << sizeof(char *) << std::endl;
+//
+//	system("pause");
+//}
