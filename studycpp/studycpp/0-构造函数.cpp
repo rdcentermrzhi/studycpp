@@ -32,6 +32,7 @@ public:
 	//copy¹¹Ôìº¯Êı
 	Test(const Test &obj)
 	{
+		std::cout << "copy" << std::endl;
 	}
 
 	~Test()

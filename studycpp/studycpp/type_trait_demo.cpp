@@ -12,12 +12,12 @@ struct x_constant {
 	constexpr value_type operator()() const noexcept { return 5; } // c++14 Æð
 };
 
-int
-main(int argc, char* argv[])
-{
-
-	std::cout << x_constant<int,4>() << std::endl;
-
-	system("pause");
-	return 0;
-}
+//int
+//main(int argc, char* argv[])
+//{
+//
+//	std::cout << x_constant<int,4>() << std::endl;
+//
+//	system("pause");
+//	return 0;
+//}
