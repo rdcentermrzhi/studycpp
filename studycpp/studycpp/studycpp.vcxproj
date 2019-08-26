@@ -139,6 +139,7 @@
     <ClCompile Include="7-静态成员函数.cpp" />
     <ClCompile Include="=不能重载为友员函数解析.cpp" />
     <ClCompile Include="Array.cpp" />
+    <ClCompile Include="array_demo.cpp" />
     <ClCompile Include="Array练习.cpp" />
     <ClCompile Include="bad_alloc异常.cpp" />
     <ClCompile Include="bitorder.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="type_trait_demo.cpp" />
     <ClCompile Include="unique_ptr_demo.cpp" />
     <ClCompile Include="vectorsimple.cpp" />
+    <ClCompile Include="vector_demo.cpp" />
     <ClCompile Include="winhttp.cpp" />
     <ClCompile Include="cpp内存布局.cpp" />
     <ClCompile Include="不用重载逻辑与或.cpp" />
@@ -178,6 +180,7 @@
     <ClCompile Include="为什么delete不知道长度但能析构对象.cpp" />
     <ClCompile Include="动态类型转换.cpp" />
     <ClCompile Include="友员函数案例.cpp" />
+    <ClCompile Include="同名变量就近原则.cpp" />
     <ClCompile Include="多继承.cpp" />
     <ClCompile Include="0-定义和父类相同的函数.cpp" />
     <ClCompile Include="智能指针类.cpp" />

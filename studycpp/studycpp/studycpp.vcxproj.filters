@@ -73,6 +73,9 @@
     <Filter Include="源文件\cpp内存布局">
       <UniqueIdentifier>{83f2c38b-b70a-4c37-9998-db7bf666ccaa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\stl container">
+      <UniqueIdentifier>{90f4413c-d2d6-4671-8d44-046c82c50cc1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -286,6 +289,15 @@
       <Filter>源文件\cpp内存布局</Filter>
     </ClCompile>
     <ClCompile Include="虚继承的内存布局.cpp">
+      <Filter>源文件\cpp内存布局</Filter>
+    </ClCompile>
+    <ClCompile Include="array_demo.cpp">
+      <Filter>源文件\stl container</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_demo.cpp">
+      <Filter>源文件\stl container</Filter>
+    </ClCompile>
+    <ClCompile Include="同名变量就近原则.cpp">
       <Filter>源文件\cpp内存布局</Filter>
     </ClCompile>
   </ItemGroup>
