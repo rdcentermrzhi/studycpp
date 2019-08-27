@@ -152,7 +152,11 @@
     <ClCompile Include="const_cast转换.cpp" />
     <ClCompile Include="cppmemory.cpp" />
     <ClCompile Include="deque.cpp" />
+    <ClCompile Include="deque_demo.cpp" />
     <ClCompile Include="endian.cpp" />
+    <ClCompile Include="forward_list.cpp" />
+    <ClCompile Include="list_demo.cpp" />
+    <ClCompile Include="map_demo.cpp" />
     <ClCompile Include="mysqlconn.cpp" />
     <ClCompile Include="MyString.cpp" />
     <ClCompile Include="out_of_range异常.cpp" />
@@ -163,6 +167,7 @@
     <ClCompile Include="0-构造函数.cpp" />
     <ClCompile Include="3-static关键字强化练习.cpp" />
     <ClCompile Include="set_muiltset.cpp" />
+    <ClCompile Include="set_multiset_dmeo.cpp" />
     <ClCompile Include="shared_weak_ptr.cpp" />
     <ClCompile Include="static在继承中.cpp" />
     <ClCompile Include="stl_string.cc" />
@@ -171,6 +176,7 @@
     <ClCompile Include="test.cpp" />
     <ClCompile Include="type_trait_demo.cpp" />
     <ClCompile Include="unique_ptr_demo.cpp" />
+    <ClCompile Include="unorder_set_demo.cpp" />
     <ClCompile Include="vectorsimple.cpp" />
     <ClCompile Include="vector_demo.cpp" />
     <ClCompile Include="winhttp.cpp" />

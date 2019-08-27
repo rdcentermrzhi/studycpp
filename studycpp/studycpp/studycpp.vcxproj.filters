@@ -300,6 +300,24 @@
     <ClCompile Include="同名变量就近原则.cpp">
       <Filter>源文件\cpp内存布局</Filter>
     </ClCompile>
+    <ClCompile Include="deque_demo.cpp">
+      <Filter>源文件\stl container</Filter>
+    </ClCompile>
+    <ClCompile Include="list_demo.cpp">
+      <Filter>源文件\stl container</Filter>
+    </ClCompile>
+    <ClCompile Include="forward_list.cpp">
+      <Filter>源文件\stl container</Filter>
+    </ClCompile>
+    <ClCompile Include="set_multiset_dmeo.cpp">
+      <Filter>源文件\stl container</Filter>
+    </ClCompile>
+    <ClCompile Include="map_demo.cpp">
+      <Filter>源文件\stl container</Filter>
+    </ClCompile>
+    <ClCompile Include="unorder_set_demo.cpp">
+      <Filter>源文件\stl container</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
