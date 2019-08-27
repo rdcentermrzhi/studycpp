@@ -43,13 +43,13 @@ private:
 
 
 
-int main(int argc,char *argv[])
-{
-	N a;
-
-	a.print();
-	a.printK(); // ¥Ú”° K.a_
-	
-	system("pause");
-	return 0;
-}
+//int main(int argc,char *argv[])
+//{
+//	N a;
+//
+//	a.print();
+//	a.printK(); // ¥Ú”° K.a_
+//	
+//	system("pause");
+//	return 0;
+//}

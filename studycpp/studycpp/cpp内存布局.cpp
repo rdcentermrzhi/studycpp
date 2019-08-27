@@ -85,6 +85,7 @@ private:
 
 
 typedef void(*Fun)(void);
+typedef void(Derive::*Func)(void);
 
 //测试一般继承 对象的内存布局
 void test_extend_1() 
@@ -100,10 +101,18 @@ void test_extend_1()
 	//子类的 析构函数会覆盖父类的析构函数 父类的虚函数顺序决定了  虚函数表的顺序
 	printf("[0 %p] Base::vfptr\n", (&d));
 	printf("\t[0 %p]\tdstor not call\n", ((int**)&d)[0]);
-	printf("\t[1 %p]\t", ((int**)&d)[0] + 1);
+	printf("\t[1 %p]\t", *(((int**)&d)[0] + 1));
 	Fun f = (Fun)*((((int**)(&d))[0])+1) ;
 	f();
 	cout << endl;
+
+	printf("%p\n", &Derive::print);
+	printf("%p\n", &Base::print);
+
+
+	Func x = &Derive::print;
+
+	//x();
 
 	printf("\t[2 %p]\t", ((int**)&d)[0] + 2);
 	f = (Fun)*((((int**)(&d))[0]) + 2);
@@ -147,22 +156,22 @@ void test_extends_2()
 	std::cout << "win32 size:" << sizeof(d) << std::endl;
 }
 
-//int main(int argc,char *argv[])
-//{
-//	Derive x(100);
-//
-//	Derive *p = &x;
-//	p->setBase(11);
-//
-//	Base* b = p;
-//
-//	b->print();
-//
-//	b->Base::print();
-//
-//
-//	//test_extend_1();
-//	//test_extends_2();
-//	system("pause");
-//	return 0;
-//}
+int main(int argc,char *argv[])
+{
+	Derive x(100);
+
+	Derive *p = &x;
+	p->setBase(11);
+
+	Base* b = p;
+
+	b->print();
+
+	b->Base::print();
+
+
+	test_extend_1();
+	//test_extends_2();
+	system("pause");
+	return 0;
+}
