@@ -106,11 +106,13 @@ void test_extend_1()
 	f();
 	cout << endl;
 
-	printf("%p\n", &Derive::print);
-	printf("%p\n", &Base::print);
+	//成员函数指针地址的问题
+	//printf("%p\n", &Derive::print);
+	//printf("%p\n", &Base::print);
 
 
-	Func x = &Derive::print;
+	//Func x = &Derive::print;
+	//(d.*x)();
 
 	//x();
 
