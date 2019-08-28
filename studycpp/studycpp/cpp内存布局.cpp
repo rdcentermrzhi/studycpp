@@ -15,7 +15,7 @@ public:
 
 	virtual ~Base() {}
 
-	virtual void print(void) { cout << "Base::print()" << baseI;  }
+	virtual void print(void) { cout << "Base::print()";  }
 
 	void setBase(int a) 
 	{
@@ -39,7 +39,14 @@ public:
 	//overwrite父类虚函数
 	virtual void print(void) { cout << "Drive::print()"; }
 	// Derive声明的新的虚函数
-	virtual void Drive_print() { cout << "Drive::Drive_print()"; }
+	virtual void Drive_print()
+	{ 
+
+		cout << "Drive::Drive_print()";  
+		int a;
+		a = DeriveI * 2;
+		cout << a;
+	}
 	
 private:
 	int DeriveI;
@@ -82,9 +89,8 @@ private:
 };
 
 
-
-
-typedef void(*Fun)(void);
+typedef void(*Fun)();
+typedef void(*FunX)(Derive* const);
 typedef void(Derive::*Func)(void);
 
 //测试一般继承 对象的内存布局
@@ -117,8 +123,8 @@ void test_extend_1()
 	//x();
 
 	printf("\t[2 %p]\t", ((int**)&d)[0] + 2);
-	f = (Fun)*((((int**)(&d))[0]) + 2);
-	f();
+	FunX fx = (FunX)*((((int**)(&d))[0]) + 2);
+	fx(&d);
 	cout << endl;
 
 	printf("[1 %p]Base::baseI = %d\n", ((int**)&d) + 1, (int)((int**)&d)[1]);
@@ -129,34 +135,34 @@ void test_extend_1()
 }
 
 //测试多继承的对象内存模型  派生类的虚函数 放置在第一个基类的虚函数表中  
-void test_extends_2()
-{
-	Drive_multyBase d(500);
-	printf("[0 %p] Base::vfptr\n", (&d));
-	printf("\t[0 %p]\tdstor not call\n", ((int**)&d)[0]);
-	printf("\t[1 %p]\t", ((int**)&d)[0] + 1);
-	Fun f = (Fun)*((((int**)(&d))[0]) + 1);
-	f();
-	cout << endl;
-
-	printf("\t[2 %p]\t", ((int**)&d)[0] + 2);
-	f = (Fun)*((((int**)(&d))[0]) + 2);
-	f();
-	cout << endl;
-	
-
-	printf("[1 %p]Base::baseI = %d\n", ((int**)&d) + 1, (int)((int**)&d)[1]);
-	printf("[2 %p]Base2::vfptr\n", ((int**)&d) + 2);
-	printf("\t[0 %p]\tdstor not call\n", ((int**)&d)[2]);
-	printf("\t[1 %p]\t", ((int**)&d)[2] + 1);
-	f = (Fun)*((((int**)(&d))[2]) + 1);
-	f();
-	cout << endl;
-
-	printf("[3 %p]Base2::base2I = %d\n", ((int**)&d) + 3, (int)((int**)&d)[3]);
-	printf("[4 %p]Drive_multyBase::Drive_multyBaseI = %d\n", ((int**)&d) + 4, (int)((int**)&d)[4]);
-	std::cout << "win32 size:" << sizeof(d) << std::endl;
-}
+//void test_extends_2()
+//{
+//	Drive_multyBase d(500);
+//	printf("[0 %p] Base::vfptr\n", (&d));
+//	printf("\t[0 %p]\tdstor not call\n", ((int**)&d)[0]);
+//	printf("\t[1 %p]\t", ((int**)&d)[0] + 1);
+//	Fun f = (Fun)*((((int**)(&d))[0]) + 1);
+//	f();
+//	cout << endl;
+//
+//	printf("\t[2 %p]\t", ((int**)&d)[0] + 2);
+//	f = (Fun)*((((int**)(&d))[0]) + 2);
+//	f();
+//	cout << endl;
+//	
+//
+//	printf("[1 %p]Base::baseI = %d\n", ((int**)&d) + 1, (int)((int**)&d)[1]);
+//	printf("[2 %p]Base2::vfptr\n", ((int**)&d) + 2);
+//	printf("\t[0 %p]\tdstor not call\n", ((int**)&d)[2]);
+//	printf("\t[1 %p]\t", ((int**)&d)[2] + 1);
+//	f = (Fun)*((((int**)(&d))[2]) + 1);
+//	f();
+//	cout << endl;
+//
+//	printf("[3 %p]Base2::base2I = %d\n", ((int**)&d) + 3, (int)((int**)&d)[3]);
+//	printf("[4 %p]Drive_multyBase::Drive_multyBaseI = %d\n", ((int**)&d) + 4, (int)((int**)&d)[4]);
+//	std::cout << "win32 size:" << sizeof(d) << std::endl;
+//}
 
 int main(int argc,char *argv[])
 {
