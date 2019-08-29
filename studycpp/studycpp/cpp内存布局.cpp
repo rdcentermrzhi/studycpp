@@ -164,22 +164,22 @@ void test_extend_1()
 //	std::cout << "win32 size:" << sizeof(d) << std::endl;
 //}
 
-int main(int argc,char *argv[])
-{
-	Derive x(100);
-
-	Derive *p = &x;
-	p->setBase(11);
-
-	Base* b = p;
-
-	b->print();
-
-	b->Base::print();
-
-
-	test_extend_1();
-	//test_extends_2();
-	system("pause");
-	return 0;
-}
+//int main(int argc,char *argv[])
+//{
+//	Derive x(100);
+//
+//	Derive *p = &x;
+//	p->setBase(11);
+//
+//	Base* b = p;
+//
+//	b->print();
+//
+//	b->Base::print();
+//
+//
+//	test_extend_1();
+//	//test_extends_2();
+//	system("pause");
+//	return 0;
+//}
