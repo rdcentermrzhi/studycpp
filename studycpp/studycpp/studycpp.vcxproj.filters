@@ -76,6 +76,9 @@
     <Filter Include="源文件\stl container">
       <UniqueIdentifier>{90f4413c-d2d6-4671-8d44-046c82c50cc1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\stl algorithm">
+      <UniqueIdentifier>{36f15ae0-41f7-4f2d-b23f-5aad5ff6a6c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -321,6 +324,27 @@
     <ClCompile Include="stream_iterator.cpp">
       <Filter>源文件\stl container</Filter>
     </ClCompile>
+    <ClCompile Include="foreach_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="count_dmeo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="max_element.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="find_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="searchn_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="search_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="find_first_of_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
@@ -330,6 +354,9 @@
       <Filter>头文件\练习</Filter>
     </ClInclude>
     <ClInclude Include="chapter1.5.1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algosuff.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

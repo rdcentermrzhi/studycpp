@@ -1,6 +1,13 @@
 #pragma once
 #include <string>
-#include <ostream>
+#include <iostream>
+#include <vector>
+#include <iterator>
+#include <algorithm>
+#include <functional>
+#include <deque>
+#include <list>
+
 
 template<typename T>
 inline void INSERT_ELEMENTS(T& cont, int first, int last)
@@ -12,11 +19,26 @@ inline void INSERT_ELEMENTS(T& cont, int first, int last)
 }
 
 template<typename T>
-inline void PRINT_ELEMENTs(T& cont,  std::string optstr = "")
+inline void PRINT_ELEMENTS(const T& cont, const std::string optstr = "")
 {
 	std::cout << optstr;
 	for (auto elemt : cont)
 	{
 		std::cout << elemt << ' ';
 	}
+	std::cout << std::endl;
+}
+
+
+template <typename T>
+inline void PRINT_MAPPED_ELEMENTS(const T& cont, const std::string& optstr = "")
+{
+	std::cout << optstr;
+	for (auto & elemt : cont)
+	{
+		std::cout << "[" << elemt.first << ','
+			<< elemt.second << "] ";
+	}
+
+	std::cout << std::endl;
 }
