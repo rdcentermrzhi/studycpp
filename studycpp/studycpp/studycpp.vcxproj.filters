@@ -79,6 +79,9 @@
     <Filter Include="源文件\stl algorithm">
       <UniqueIdentifier>{36f15ae0-41f7-4f2d-b23f-5aad5ff6a6c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\openmp">
+      <UniqueIdentifier>{9441cf52-dd2b-486c-b263-07b6699861ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0-构造函数.cpp">
@@ -344,6 +347,9 @@
     </ClCompile>
     <ClCompile Include="find_first_of_demo.cpp">
       <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="openmp_demo.cpp">
+      <Filter>源文件\openmp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -77,6 +77,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Program Files\MariaDB 10.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>C:\Program Files\MariaDB 10.3\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -90,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -164,6 +166,7 @@
     <ClCompile Include="max_element.cpp" />
     <ClCompile Include="mysqlconn.cpp" />
     <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="openmp_demo.cpp" />
     <ClCompile Include="out_of_range异常.cpp" />
     <ClCompile Include="pair.cpp" />
     <ClCompile Include="pair_demo.cpp" />
