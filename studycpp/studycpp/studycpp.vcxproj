@@ -91,7 +91,6 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -140,6 +139,7 @@
     <ClCompile Include="6-公有静态数据成员.cpp" />
     <ClCompile Include="7-静态成员函数.cpp" />
     <ClCompile Include="=不能重载为友员函数解析.cpp" />
+    <ClCompile Include="allanynone1.cpp" />
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="array_demo.cpp" />
     <ClCompile Include="Array练习.cpp" />
@@ -152,18 +152,27 @@
     <ClCompile Include="chrono_demo.cpp" />
     <ClCompile Include="Complex.cpp" />
     <ClCompile Include="const_cast转换.cpp" />
+    <ClCompile Include="copy1.cpp" />
     <ClCompile Include="count_dmeo.cpp" />
     <ClCompile Include="cppmemory.cpp" />
     <ClCompile Include="deque.cpp" />
     <ClCompile Include="deque_demo.cpp" />
     <ClCompile Include="endian.cpp" />
+    <ClCompile Include="equal_demo.cpp" />
     <ClCompile Include="find_demo.cpp" />
     <ClCompile Include="find_first_of_demo.cpp" />
     <ClCompile Include="foreach_demo.cpp" />
     <ClCompile Include="forward_list.cpp" />
+    <ClCompile Include="isheap1.cpp" />
+    <ClCompile Include="ispartitioned1.cpp" />
+    <ClCompile Include="is_permutation_demo.cpp" />
+    <ClCompile Include="is_sort.cpp" />
+    <ClCompile Include="lexicographical_comare_demo.cpp" />
     <ClCompile Include="list_demo.cpp" />
     <ClCompile Include="map_demo.cpp" />
     <ClCompile Include="max_element.cpp" />
+    <ClCompile Include="mismatch_demo.cpp" />
+    <ClCompile Include="move1.cpp" />
     <ClCompile Include="mysqlconn.cpp" />
     <ClCompile Include="MyString.cpp" />
     <ClCompile Include="openmp_demo.cpp" />

@@ -351,6 +351,36 @@
     <ClCompile Include="openmp_demo.cpp">
       <Filter>源文件\openmp</Filter>
     </ClCompile>
+    <ClCompile Include="equal_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="is_permutation_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="mismatch_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="lexicographical_comare_demo.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="is_sort.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="ispartitioned1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="isheap1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="allanynone1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="copy1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="move1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">

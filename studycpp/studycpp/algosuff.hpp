@@ -7,7 +7,7 @@
 #include <functional>
 #include <deque>
 #include <list>
-
+#include <map>
 
 template<typename T>
 inline void INSERT_ELEMENTS(T& cont, int first, int last)
