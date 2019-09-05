@@ -381,6 +381,21 @@
     <ClCompile Include="move1.cpp">
       <Filter>源文件\stl algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="transform1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="swaprange1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="replace1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="remove1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="unique1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">

@@ -8,6 +8,8 @@
 #include <deque>
 #include <list>
 #include <map>
+#include <array>
+#include <numeric>
 
 template<typename T>
 inline void INSERT_ELEMENTS(T& cont, int first, int last)

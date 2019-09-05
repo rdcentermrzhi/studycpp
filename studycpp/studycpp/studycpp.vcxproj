@@ -183,6 +183,8 @@
     <ClCompile Include="1-拷贝构造函数.cpp" />
     <ClCompile Include="0-构造函数.cpp" />
     <ClCompile Include="3-static关键字强化练习.cpp" />
+    <ClCompile Include="remove1.cpp" />
+    <ClCompile Include="replace1.cpp" />
     <ClCompile Include="searchn_demo.cpp" />
     <ClCompile Include="search_demo.cpp" />
     <ClCompile Include="set_muiltset.cpp" />
@@ -193,8 +195,11 @@
     <ClCompile Include="stl_vector.cpp" />
     <ClCompile Include="stl内存泄露.cpp" />
     <ClCompile Include="stream_iterator.cpp" />
+    <ClCompile Include="swaprange1.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="transform1.cpp" />
     <ClCompile Include="type_trait_demo.cpp" />
+    <ClCompile Include="unique1.cpp" />
     <ClCompile Include="unique_ptr_demo.cpp" />
     <ClCompile Include="unorder_set_demo.cpp" />
     <ClCompile Include="vectorsimple.cpp" />
