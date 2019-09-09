@@ -183,8 +183,11 @@
     <ClCompile Include="1-拷贝构造函数.cpp" />
     <ClCompile Include="0-构造函数.cpp" />
     <ClCompile Include="3-static关键字强化练习.cpp" />
+    <ClCompile Include="permutation1.cpp" />
     <ClCompile Include="remove1.cpp" />
     <ClCompile Include="replace1.cpp" />
+    <ClCompile Include="reverse.cpp" />
+    <ClCompile Include="rotate.cpp" />
     <ClCompile Include="searchn_demo.cpp" />
     <ClCompile Include="search_demo.cpp" />
     <ClCompile Include="set_muiltset.cpp" />
