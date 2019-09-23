@@ -163,6 +163,7 @@
     <ClCompile Include="find_first_of_demo.cpp" />
     <ClCompile Include="foreach_demo.cpp" />
     <ClCompile Include="forward_list.cpp" />
+    <ClCompile Include="heap1.cpp" />
     <ClCompile Include="isheap1.cpp" />
     <ClCompile Include="ispartitioned1.cpp" />
     <ClCompile Include="is_permutation_demo.cpp" />
@@ -193,6 +194,8 @@
     <ClCompile Include="set_muiltset.cpp" />
     <ClCompile Include="set_multiset_dmeo.cpp" />
     <ClCompile Include="shared_weak_ptr.cpp" />
+    <ClCompile Include="sort1.cpp" />
+    <ClCompile Include="sort2.cpp" />
     <ClCompile Include="static在继承中.cpp" />
     <ClCompile Include="stl_string.cc" />
     <ClCompile Include="stl_vector.cpp" />

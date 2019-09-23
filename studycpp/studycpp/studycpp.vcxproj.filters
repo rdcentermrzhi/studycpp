@@ -405,6 +405,15 @@
     <ClCompile Include="permutation1.cpp">
       <Filter>源文件\stl algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="sort1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="sort2.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="heap1.cpp">
+      <Filter>源文件\stl algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h">
